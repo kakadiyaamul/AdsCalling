@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Ads_Calling_Amul_Kakadiya.iml" filepath="$PROJECT_DIR$/.idea/modules/Ads_Calling_Amul_Kakadiya.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/adscalling/Ads_Calling_Amul_Kakadiya.AdsCalling.iml" filepath="$PROJECT_DIR$/.idea/modules/adscalling/Ads_Calling_Amul_Kakadiya.AdsCalling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Ads_Calling_Amul_Kakadiya.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Ads_Calling_Amul_Kakadiya.app.iml" />
+    </modules>
+  </component>
+</project>

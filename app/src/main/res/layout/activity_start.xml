@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_com" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/gfg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginRight="100dp"
+                android:adjustViewBounds="true"
+                android:paddingRight="50dp"
+                android:src="@drawable/name_text" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="80dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/start_go_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/lets_go_btn" />
+
+                <ImageView
+                    android:id="@+id/share_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="20dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/share_btn" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/privacy_rate_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="0">
+
+        <ImageView
+            android:id="@+id/iv_reta"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:padding="5dp"
+            android:src="@drawable/rate_btn" />
+
+        <ImageView
+            android:id="@+id/iv_privecy"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:padding="5dp"
+            android:src="@drawable/privacy_btn" />
+
+    </LinearLayout>
+
+</RelativeLayout>

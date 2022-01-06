@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="colorAccent">#EDBC0A</color>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="parent_background">#FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Ads Calling Amul Kakadiya</string>
+</resources>
